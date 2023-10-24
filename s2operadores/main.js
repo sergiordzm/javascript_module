@@ -43,7 +43,7 @@ console.log(result);*/
 
 console.log(result);*/
 
-let result = 4;
+/*let result = 4;
 
 result += 3;
 
@@ -51,7 +51,7 @@ console.log(result);
 
 result -= 1;
 
-console.log(result);
+console.log(result);*/
 
 /*Operadores de comparación*/
 
@@ -67,3 +67,6 @@ console.log(result);
     Diferente de -> A != B -> Evalua si el valor de A es diferente que el de B
     Diferente de -> A !== B -> Evalua si el valor y el tipo de dato de A es diferente que el de B
 */
+
+let A = "7";
+let B = 7;
