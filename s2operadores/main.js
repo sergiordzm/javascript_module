@@ -70,3 +70,20 @@ console.log(result);*/
 
 let A = "7";
 let B = 7;
+
+console.log(A == B);
+console.log(A === B);
+console.log(A > B);
+console.log(A < B);
+console.log(A >= B);
+console.log(A >= B);
+console.log(A != B);
+console.log(A !== B);
+
+/*Operadores lógicos*/
+
+/*
+    And -> expression1 && expression2 
+    Or -> expression1 || expression2
+    not -> !expression
+*/
