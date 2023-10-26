@@ -112,7 +112,6 @@ function moduleTwoNumbers(firstNumber, secondNumber) {
   let resultado = firstNumber % secondNumber;
   return resultado;
 }
-
 let suma1 = addTwoNumbers(6, 9);
 let suma2 = addTwoNumbers(10, 20);
 let multi1 = multTwoNumbers(6, 9);
