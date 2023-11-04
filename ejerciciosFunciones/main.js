@@ -41,6 +41,33 @@ testIf(5);
 
 */
 
+function name(especie) {
+  if (especie === "perro") {
+    console.log("El nombre de tu mascota es Milaneso");
+  } else if (especie === "gato") {
+    console.log("El nombre de tu mascota es Michiflais");
+  } else if (especie === "ave") {
+    console.log("El nombre de tu mascota es Piolin");
+  } else {
+    console.log("No conozco a esta especie");
+  }
+  switch (especie) {
+    case "perro":
+      console.log("El nombre de tu mascota es Milaneso");
+      break;
+    case "gato":
+      console.log("El nombre de tu mascota es Michiflais");
+      break;
+    case "ave":
+      console.log("El nombre de tu mascota es Piolin");
+      break;
+    default:
+      console.log("No conozco a esta especie");
+  }
+}
+
+name("cocodrilo");
+
 /*Un calculador de dados. Este caklculador requiere saber los puntos que obtuviste en cada dado (considerando dos dados). Una vez que le digas 
   lod números te debe avisar si ganaste o perdiste considerando las siguientes combinaciones ganadoras:
     2,2
