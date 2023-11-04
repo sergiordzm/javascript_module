@@ -30,3 +30,22 @@ function testIf(number) {
 }
 
 testIf(5);
+
+/*Vamos a crear un consejero de nombre para mi mascota, este consejero necesita saber qué especie es tu mascota (perro, gato, aver)
+    y ofrecer el siguiente nombre:
+      perro -> Milaneso
+      gato -> Michiflais
+      ave -> Piolín
+
+  Si la especie no es conocidad por el consejero, nos debe decir que no conoce esa especia 
+
+*/
+
+/*Un calculador de dados. Este caklculador requiere saber los puntos que obtuviste en cada dado (considerando dos dados). Una vez que le digas 
+  lod números te debe avisar si ganaste o perdiste considerando las siguientes combinaciones ganadoras:
+    2,2
+    4,6
+    1,1 
+  Caulquuier otra combinación se condiera perdedora 
+  los dados sólo tienen puntos del 1 al 6
+*/
