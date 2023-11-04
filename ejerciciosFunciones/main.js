@@ -88,13 +88,13 @@ function numeros(carauno, carados) {
     console.log("Lo siento, has perdido!");
   }
   switch ((carauno, carados)) {
-    case (2, 2):
+    case carauno === 2 && carados === 2:
       console.log("Felicidades, has ganado!");
       break;
-    case (4, 6):
+    case carauno === 4 && carados === 6:
       console.log("Felicidades, has ganado!");
       break;
-    case (1, 1):
+    case carauno === 1 && carados === 1:
       console.log("Felicidades, has ganado!");
       break;
     default:
@@ -102,4 +102,4 @@ function numeros(carauno, carados) {
   }
 }
 
-numeros(2, 1);
+numeros(2, 2);
