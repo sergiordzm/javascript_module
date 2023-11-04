@@ -90,4 +90,7 @@ function numeros(carauno, carados) {
   }
 }
 
-numeros(2, 2);
+let num1 = numeros(2, 6);
+let num2 = numeros(2, 2);
+
+console.log(num1, num2);
