@@ -78,7 +78,16 @@ name("cocodrilo");
 */
 
 function numeros(carauno, carados) {
-  switch (carauno + "," + carados) {
+  if (carauno === 2 && carados === 2) {
+    console.log("Felicidades, has ganado!");
+  } else if (carauno === 4 && carados === 6) {
+    console.log("Felicidades, has ganado!");
+  } else if (carauno === 1 && carados === 1) {
+    console.log("Felicidades, has ganado!");
+  } else {
+    console.log("Lo siento, has perdido!");
+  }
+  switch ((carauno, carados)) {
     case (2, 2):
       console.log("Felicidades, has ganado!");
       break;
@@ -93,4 +102,4 @@ function numeros(carauno, carados) {
   }
 }
 
-numeros(2, 2);
+numeros(2, 1);
