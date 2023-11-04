@@ -78,27 +78,15 @@ name("cocodrilo");
 */
 
 function numeros(carauno, carados) {
-  if (carauno === 2 && carados === 2) {
-    console.log("Felicidades, has ganado!");
-  } else if (carauno === 4 && carados === 6) {
-    console.log("Felicidades, has ganado!");
-  } else if (carauno === 1 && carados === 1) {
-    console.log("Felicidades, has ganado!");
+  if (
+    (carauno === 2 && carados === 2) ||
+    (carauno === 4 && carados === 6) ||
+    (carauno === 6 && carados === 4) ||
+    (carauno === 1 && carados === 1)
+  ) {
+    return "Eres un ganador";
   } else {
-    console.log("Lo siento, has perdido!");
-  }
-  switch ((carauno, carados)) {
-    case carauno === 2 && carados === 2:
-      console.log("Felicidades, has ganado!");
-      break;
-    case carauno === 4 && carados === 6:
-      console.log("Felicidades, has ganado!");
-      break;
-    case carauno === 1 && carados === 1:
-      console.log("Felicidades, has ganado!");
-      break;
-    default:
-      console.log("Lo siento, no has ganado");
+    return "No ganaste";
   }
 }
 
