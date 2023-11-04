@@ -68,7 +68,7 @@ function name(especie) {
 
 name("cocodrilo");
 
-/*Un calculador de dados. Este caklculador requiere saber los puntos que obtuviste en cada dado (considerando dos dados). Una vez que le digas 
+/*Un calculador de dados. Esta calculador requiere saber los puntos que obtuviste en cada dado (considerando dos dados). Una vez que le digas 
   lod números te debe avisar si ganaste o perdiste considerando las siguientes combinaciones ganadoras:
     2,2
     4,6
@@ -76,3 +76,21 @@ name("cocodrilo");
   Caulquuier otra combinación se condiera perdedora 
   los dados sólo tienen puntos del 1 al 6
 */
+
+function numeros(carauno, carados) {
+  switch (carauno + "," + carados) {
+    case (2, 2):
+      console.log("Felicidades, has ganado!");
+      break;
+    case (4, 6):
+      console.log("Felicidades, has ganado!");
+      break;
+    case (1, 1):
+      console.log("Felicidades, has ganado!");
+      break;
+    default:
+      console.log("Lo siento, no has ganado");
+  }
+}
+
+numeros(2, 2);
