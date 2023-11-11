@@ -94,3 +94,21 @@ let num1 = numeros(2, 6);
 let num2 = numeros(2, 2);
 
 console.log(num1, num2);
+
+/*Condicional ternario*/
+
+function isAdult(age) {
+  if (age >= 18) {
+    return "Is adult";
+  } else {
+    return "Is not adult";
+  }
+}
+
+function isAdultTwo(age) {
+  return age >= (18 ? "Is adult" : "Is not adult");
+}
+
+let ageAdult = isAdult(12);
+let ageAdultTwo = isAdultTwo(17);
+console.log(ageAdult, ageAdultTwo);
